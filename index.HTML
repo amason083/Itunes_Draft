@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/Styles.css">
+</head>
+<body>
+    <nav></nav>
+    <div>
+        <form action="#" method="GET" class="js_form">
+            <div class="form_row">
+                <label>
+                    Enter Artist's Name:
+                    <input type="text" name="Artist_Name">
+                </label>
+            </div>
+            <div class="form_row">
+                <label>
+                    Number of Songs from Artist:
+                    <input type="number" name="Song_Count">
+                </label>
+            </div>
+            <button type="submit">Search</button>
+            <div class="js_message_container message_container"></div>
+            <div class="js_message_count message_count"></div>
+        </form>
+    </div>
+    <section class="js_itunes_songs itunes_songs"></section>
+    <script src="./Javascript/itunes.js"></script>
+</body>
+</html>
