@@ -7,29 +7,23 @@ body{
 
 .navbar{
     background-color: #97A5A2;
+    color: black;
 }
 
-
-input[name="Artist_Name"] {
-    font-size: 45px;
+.navbar-brand {
+    font-size: 50px;
     font-weight: bold;
 }
 
-input[type="text"] {
-    width: 350px;
+
+.navbar-toggler {
+    border: 5px solid black;
+
 }
 
-
-
-input{
-    background-color:  #E2DED6;
-    border-radius: 20px;
+ul {
+    font-size: 30px;
     text-align: center;
-}
-
-input[name="Song_Count"] {
-    font-size: 45px;
-    font-weight: bold;
 }
 
 .form_design{
@@ -48,15 +42,30 @@ input[name="Song_Count"] {
 
 }
 
-.message_container, .message_count{
-    display: flex;
-    justify-content: center;
-    padding: 0px;
-    max-width: 350px;
+input{
+    background-color:  #E2DED6;
+    border-radius: 20px;
+    text-align: center;
 }
 
 .form_row_artist {
     text-align: center;
+}
+
+
+input[name="Artist_Name"] {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 350px;
+}
+
+
+input[name="Song_Count"] {
+    font-size: 45px;
+    font-weight: bold;
 }
 
 .js_form > button{
@@ -70,9 +79,30 @@ input[name="Song_Count"] {
     margin: 5px;
 }
 
+.js_form > button:hover{
+    width: 100%;
+    max-width: 350px;
+    font-family: 'Oswald';
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color:  #E2DED6;
+    margin: 5px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.message_container, .message_count{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    max-width: 350px;
+}
+
 .song_item {
     background-color: #97A5A2;
     margin: 10px;
+    padding-top: 20px;
     padding-bottom: 0px;
     width: 450px;
     border-radius: 20px;

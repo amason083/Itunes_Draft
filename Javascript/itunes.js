@@ -31,7 +31,7 @@ function renderSongs(results) {
                     src="${results.artworkUrl100}"
                     alt="${results.trackName}" />
                 <audio
-                    controls
+                    controls controlsList="nodownload noplaybackrate"
                     src="${results.previewUrl}">
                 </audio>
             </div>
