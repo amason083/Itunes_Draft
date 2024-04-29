@@ -46,6 +46,6 @@ User Types:
 
 ## Inspiration
 
-**https://music.apple.com/us/browse**
-**https://open.spotify.com/**
-**https://en.wikipedia.org/wiki/HitClips**
+https://music.apple.com/us/browse
+https://open.spotify.com/
+https://en.wikipedia.org/wiki/HitClips
