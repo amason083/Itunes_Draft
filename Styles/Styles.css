@@ -1,42 +1,123 @@
 body{
     min-width: 400px;
+    font-family: 'Oswald';
+    color: black;
+    background-color: #E2DED6;
+}
+
+.navbar{
+    background-color: #97A5A2;
+}
+
+
+input[name="Artist_Name"] {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 350px;
+}
+
+
+
+input{
+    background-color:  #E2DED6;
+    border-radius: 20px;
+    text-align: center;
+}
+
+input[name="Song_Count"] {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.form_design{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #97A5A2;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+
+.message_container, .message_count{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    max-width: 350px;
+}
+
+.form_row_artist {
+    text-align: center;
+}
+
+.js_form > button{
+    width: 100%;
+    max-width: 350px;
+    font-family: 'Oswald';
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color:  #E2DED6;
+    margin: 5px;
 }
 
 .song_item {
-    border: 2px solid black;
-    background-color: lightgrey;
+    background-color: #97A5A2;
     margin: 10px;
-    padding: 10px;
-    width: 350px;
+    padding-bottom: 0px;
+    width: 450px;
     border-radius: 20px;
 }
 
 .song_name {
     text-align: center;
+    font-size: 35px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .artist_name {
     text-align: center;
+    font-size: 30px;
+    padding: 0px;
 }
 
 .song_item > img {
-    width: 90%;
+    width: 95%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 20px;
-    
+    border-radius: 50%;
+    border: 7px solid black;
 }
 
+
 .song_item > audio {
-    width: 90%;
+    width: 100%;
+    background-color: #f1f3f4;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 0px 0px 20px 20px;
 }
 
 .js_itunes_songs {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    font-size: 50px;
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
 }

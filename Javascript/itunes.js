@@ -5,7 +5,6 @@ const songResults = document.querySelector('.js_itunes_songs');
 let artistResult = null;
 let countResult = null;
 let results = null;
-let link = null;
 const messageContainer = document.querySelector('.js_message_container');
 const actualResults = document.querySelector('.js_message_count');
 
@@ -16,10 +15,6 @@ async function loadSongs() {
     const response = await data.json();
     results = response.results;
     songResults.innerHTML = '';
-    if (results === null) {
-        await fetchSongs();
-
-    }
     displaySongs();
 }
 
@@ -30,8 +25,8 @@ function renderSongs(results) {
             <div
             class="song_item"
             data-id="${results.trackid}">
-                <h2 class="song_name">${results.trackName}</h2>
-                <p class="artist_name">${results.artistName}</p>
+                <h2 class="song_name">${results.trackName.substring(0,27)}</h2>
+                <p class="artist_name">${results.artistName.substring(0,32)}</p>
                 <img
                     src="${results.artworkUrl100}"
                     alt="${results.trackName}" />
@@ -50,13 +45,13 @@ function displaySongs() {
     songResults.innerHTML = '';
     actualResults.innerHTML = '';
     if (!results || results.length === 0) {
-        songResults.innerHTML = '<p>No songs found.</p>';
+        songResults.innerHTML = '<p>No Songs Found.</p>';
         return;
     } songResults.innerHTML = results
     .map(renderSongs)
     .join('');
 
-    actualResults.innerHTML = `<p>Found ${results.length} Songs</p>`
+    actualResults.innerHTML = `<p>Found ${results.length} Song(s)</p>`
 }
 
 function pauseSong(){
@@ -73,22 +68,20 @@ function pauseSong(){
 function formSubmitted(event) {
     event.preventDefault();
     messageContainer.innerHTML = '';
+    actualResults.innerHTML = '';
 
     const artistNameVal = nameField.value;
     const countAmount = countField.value;
     
     if (artistNameVal.length === 0 || countAmount.length === 0) {
-        messageContainer.innerHTML = 'Please enter Artist Name and count of songs.';
+        messageContainer.innerHTML = 'Please enter Artist Name and Count of Songs.';
         return;
-    } else if (Math.abs(countField.value) > 25) {
-        countField.value = 25;
-        messageContainer.innerHTML = 'Result Limit: 25 songs';
     } else {
         messageContainer.innerHTML = '';
     }
 
-    artistResult = nameField.value.trim(artistResult).replace(' ','+');
-    countResult = Math.abs(countField.value);
+    artistResult = nameField.value.trim(artistResult);
+    countResult = countField.value;
     loadSongs();
 
 }
