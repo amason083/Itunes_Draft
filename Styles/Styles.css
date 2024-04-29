@@ -74,7 +74,7 @@ input[name="Song_Count"] {
     font-weight: bold;
 }
 
-.js_form > button{
+.form > button{
     width: 100%;
     max-width: 300px;
     font-family: 'Oswald';
@@ -85,7 +85,7 @@ input[name="Song_Count"] {
     margin: 5px;
 }
 
-.js_form > button:hover{
+.form > button:hover{
     width: 100%;
     max-width: 300px;
     font-family: 'Oswald';
@@ -147,7 +147,7 @@ input[name="Song_Count"] {
     border-radius: 0px 0px 20px 20px;
 }
 
-.js_itunes_songs {
+.itunes_songs {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
