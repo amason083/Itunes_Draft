@@ -12,11 +12,11 @@ Purpose: This website is for when you get a suggestion for an artist and you wan
 
 # How To Use It
 
-- **Artist Name Input:** You will write in an artist's name. Please make sure to spell it corretly or it could produce a "No songs found" message.
+- **Artist Name Input:** You will input an artist's name. Please make sure to spell it corretly or it could produce a "No songs found" message.
 
 - **No. of Songs Input:** Put in a number in the range of 1 to 25 in the number section.
 
-- **Search Button:** Once both of the above inputs are filled in, hit submit and it will produce a list of songs from the artist. An actual song count message will come up letting you know the actual result count. If either the Artist Name imput or the No. of Songs Input are empty before hitting search, you will get the following message: Please enter Artist Name and Count of Songs.
+- **Search Button:** Once both of the above inputs are filled in, hit submit and it will produce a list of songs from the artist. An actual song count message will come up letting you know the actual result count. If either the Artist Name input or the No. of Songs Input are empty before hitting search, you will get the following message: Please enter Artist Name and Count of Songs.
 
 - **After results are produced:** You will get an audio player for each song that is about 30 seconds each.
 
