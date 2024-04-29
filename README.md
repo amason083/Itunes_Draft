@@ -28,10 +28,10 @@ Purpose: This website is for when you get a suggestion for an artist and you wan
 
 # Technologies Used
 
-HTML
-CSS
-Bootstrap
-JavaScript
+- **HTML**
+- **CSS**
+- **Bootstrap**
+- **JavaScript**
 
 ## User Stories
 
