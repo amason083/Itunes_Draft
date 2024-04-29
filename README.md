@@ -4,7 +4,7 @@ Snippit: https://amason083.github.io/Itunes_Draft/index.HTML
 
 # Webpage
 
-Snippit - Users will search for an artist and a certain amount of songs from their discography. Once they hit search, they will have a list of songs buy that artist and they will be able to listen to a snippit of each song to figure if you are interested in this artist.
+Snippit - Users will search for an artist and a certain amount of songs from their discography. Once they hit search, they will have a list of songs by that artist and they will be able to listen to a snippit of each song to figure if they are interested in this artist.
 
 # Purpose_Statement
 
@@ -12,19 +12,19 @@ Purpose: This website is for when you get a suggestion for an artist and you wan
 
 # How To Use It
 
-Artist Name Input: You will write in an artist's name. Please make sure to spell it corretly or it could produce a "No songs found" message.
+- **Artist Name Input:** You will write in an artist's name. Please make sure to spell it corretly or it could produce a "No songs found" message.
 
-No. of Songs Input: Put in a number in the range of 1 to 25 in the number section.
+- **No. of Songs Input:** Put in a number in the range of 1 to 25 in the number section.
 
-Search Button: Once both of the above inputs are filled in, hit submit and it will produce a list of songs from the artist. An actual song count message will come up letting you know the actual result count. If either the Artist Name imput or the No. of Songs Input are empty before hitting search, you will get the following message: Please enter Artist Name and Count of Songs.
+- **Search Button:** Once both of the above inputs are filled in, hit submit and it will produce a list of songs from the artist. An actual song count message will come up letting you know the actual result count. If either the Artist Name imput or the No. of Songs Input are empty before hitting search, you will get the following message: Please enter Artist Name and Count of Songs.
 
-After results are produced: You will get an audio player for each song that is about 30 seconds each.
+- **After results are produced:** You will get an audio player for each song that is about 30 seconds each.
 
-Play/Stop button: allows you to play and stop each song at your request.
+- **Play/Stop button:** allows you to play and stop each song at your request.
 
-Time Bar: you can move forward/backwards in the song as needed.
+- **Time Bar:** you can move forward/backwards in the song as needed.
 
-Sound button: You press this button to adjust the volume of the music and you can mute it as well with this button.
+- **Sound button:** You press this button to adjust the volume of the music and you can mute it as well with this button.
 
 # Technologies Used
 
