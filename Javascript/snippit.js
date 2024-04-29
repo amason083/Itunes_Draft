@@ -25,8 +25,8 @@ function renderSongs(results) {
             <div
             class="song_item"
             data-id="${results.trackid}">
-                <h2 class="song_name">${results.trackName.substring(0,27)}</h2>
-                <p class="artist_name">${results.artistName.substring(0,32)}</p>
+                <h2 class="song_name">${results.trackName.substring(0,19)}</h2>
+                <p class="artist_name">${results.artistName.substring(0,27)}</p>
                 <img
                     src="${results.artworkUrl100}"
                     alt="${results.trackName}" />
