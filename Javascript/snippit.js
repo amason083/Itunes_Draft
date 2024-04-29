@@ -74,7 +74,7 @@ function formSubmitted(event) {
     const countAmount = countField.value;
     
     if (artistNameVal.length === 0 || countAmount.length === 0) {
-        messageContainer.innerHTML = 'Please enter Artist Name and Count of Songs.';
+        messageContainer.innerHTML = 'Please Enter Artist Name and Count of Songs.';
         return;
     } else {
         messageContainer.innerHTML = '';
