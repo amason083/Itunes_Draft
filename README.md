@@ -1,6 +1,6 @@
 # Snippit_Website
 
-Snippit: https://amason083.github.io/Itunes_Draft/index.HTML
+Snippit: https://amason083.github.io/Snippet/index.HTML
 
 # Webpage
 
