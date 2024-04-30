@@ -82,7 +82,6 @@ input[name="Song_Count"] {
     font-weight: bold;
     border-radius: 20px;
     background-color:#E2DED6;
-    margin: 5px;
 }
 
 .form > button:hover{
@@ -93,7 +92,6 @@ input[name="Song_Count"] {
     font-weight: bold;
     border-radius: 20px;
     background-color:#E2DED6;
-    margin: 5px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -104,6 +102,7 @@ input[name="Song_Count"] {
     padding: 0px;
     font-size: 35px;
     max-width: 300px;
+    margin-top: 5px;
 }
 
 .song_item {
@@ -113,6 +112,7 @@ input[name="Song_Count"] {
     padding-bottom: 0px;
     width: 320px;
     border-radius: 20px;
+    position: relative;
 }
 
 .song_name {
@@ -131,20 +131,23 @@ input[name="Song_Count"] {
 .song_item > img {
     width: 95%;
     display: block;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
     border: 7px solid black;
+    margin-bottom: 60px;
 }
 
 
 .song_item > audio {
     width: 100%;
     background-color: #f1f3f4;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
     border-radius: 0px 0px 20px 20px;
+
 }
 
 .itunes_songs {
